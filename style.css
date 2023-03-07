@@ -1,0 +1,40 @@
+
+.logininputs{
+    border: 2px solid gray;
+    border-radius: 7px;
+    width: 300px;
+    height: 40px;
+}
+.logininputs::placeholder{
+     position: relative;
+     left: 100px;
+     font-size:20px;
+}
+header{
+    padding: 30px;
+    background-color: rgb(162, 0, 255);
+}
+h1{
+  color:aliceblue;
+}
+body{
+   background-color: rgb(46, 46, 46);
+
+}
+.inputslogin{
+    margin-top: 100px;
+}
+.criarconta{
+    color: rgb(162, 0, 255);
+    position: relative;
+    left: 50px;
+}
+.mudarsenha{
+    color: rgb(162, 0, 255);
+    position:relative;
+    left:50px;
+}
+input{
+
+    float:left;
+}
