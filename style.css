@@ -1,4 +1,42 @@
 
+body{
+    background-color: rgb(50, 50, 50);
+ 
+ }
+header{
+    padding: 30px;
+    position: relative;
+    margin-bottom: 500px;
+    background-color: #b026ff;
+    box-shadow: 0 0 50px #b026ff;
+}
+.titulo{
+    color:aliceblue;
+}
+.telalogin{
+    position: relative;
+}
+.titulologin{
+     margin-top: 120px;
+     position: relative;
+}
+p#titulousername{
+    color: white;
+    position: absolute;
+    margin: 2px;
+    left: 155px;
+}
+p#titulosenha{
+     color: white;
+     position: relative;
+     margin: 2px;
+     left: 552px;
+}
+
+.loginp/* div */{
+      
+
+}
 .logininputs{
     border: 2px solid gray;
     border-radius: 7px;
@@ -7,56 +45,65 @@
 }
 .logininputs::placeholder{
      position: relative;
-     left: 92px;
+     left: 100px;
      font-size:20px;
-     z-index: 0;
+     
 }
 .logininputs#usernam3{
-      font-size: 20px;
-      padding-left: 12px;
-     z-index: 0;
-
+    position: relative;
+    font-size: 20px;
+      
+    
 }
 .logininputs#passw0rd{
+    position: relative;
      font-size: 20px;
-     padding-left: 12px;
-    
-}
-header{
-    padding: 30px;
-    background-color: rgb(162, 0, 255);
-}
-.titulo{
-  color:aliceblue;
-}
-body{
-   background-color: rgb(46, 46, 46);
-
-}
-.telalogin{
-    margin-top: 100px;
-    margin-left: 220px;
-    
+     
 }
 .nãologin{
-  z-index: 1;
-  position: absolute;
-
+  position: relative;
 }
+
 .nãologin.mudarapelido{
-    color: rgb(162, 0, 255);
-    position: relative;
-    right: 742px;
-    margin-top: 37px;
+    color: #b026ff;
+    position: absolute;
+    left: 50px;
+    margin-top: 36px;
     font-size: 15px;
     
 }
 .nãologin.mudarsenha{
-    color: rgb(162, 0, 255);
-    position: relative;
-    right: 457px;
-    margin-top: 37px;
+    color: #b026ff;
+    position: absolute;
+    left: 450px;
+    margin-top: 36px;
     font-size: 15px;
+}
+.checkandlabel{
+    position: relative;
+
+    
+}
+#caixabox{
+   position: absolute;
+   left: 50px;
+   margin-top: 60px;
+}
+#mantermeconectado{
+    position:absolute;
+    color: white;
+    margin-top: 54px;
+    left: 64px;
+}
+#botaologin{
+     position: relative;
+     left:684px;
+     margin-top: 52px;
+     font-size: 20px;
+     border: 2px;
+     border-radius: 10px;
+    
+
 }
 /*.telalogin.mudarapelido{
     color: rgb(162, 0, 255);
@@ -74,6 +121,3 @@ body{
     padding-top: 20px;
     font-size: 15px;
 }  */
-.telalogin{
-display: flex;
-}
