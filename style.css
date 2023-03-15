@@ -12,6 +12,7 @@ header{
 }
 .titulo{
     color:aliceblue;
+    text-shadow: 0 0 6px white;
 }
 .telalogin{
     position: relative;
@@ -36,12 +37,14 @@ p#titulosenha{
     border: 2px solid gray;
     border-radius: 7px;
     width: 300px;
-    height: 40px;
+    height: 30px;
+    box-shadow: 0 0 20px #b026ff;
 }
 .logininputs::placeholder{
      position: relative;
-     left: 100px;
-     font-size:20px;
+     left: 105px;
+     font-size:18px;
+     color: rgb(166, 108, 196);
      
 }
 .logininputs#usernam3{
@@ -97,8 +100,10 @@ p#titulosenha{
      font-size: 20px;
      border: 2px;
      border-radius: 10px;
-    
-
+}
+#botaologin{
+    color: rgb(158, 78, 199);
+    box-shadow: 0 0 20px #b026ff;
 }
 /*.telalogin.mudarapelido{
     color: rgb(162, 0, 255);
